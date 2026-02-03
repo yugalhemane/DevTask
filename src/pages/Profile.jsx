@@ -1,5 +1,7 @@
 import Container from "../components/Container";
 import "../styles/form.css";
+import profileImage from "../assets/Ellipse 114@2x.png";
+import cameraIcon from "../assets/Group 1585@2x.png";
 
 export default function Profile() {
   return (
@@ -10,7 +12,11 @@ export default function Profile() {
         <div className="profile-card">
           <div className="profile-header">
             <div className="avatar">
-              <span>U</span>
+              <img src={profileImage} alt="Mary Doe" 
+                   style={{width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover'}} />
+              <div className="camera-icon">
+                <img src={cameraIcon} alt="Edit" style={{width: '12px', height: '12px'}} />
+              </div>
             </div>
 
             <div className="profile-info">

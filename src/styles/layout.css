@@ -3,12 +3,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ccc; /* Generic desktop background */
 }
 
 .mobile-frame {
   width: 375px;
-  min-height: 667px;
-  background: #ffffff;
+  height: 720px; /* Fixed height per design */
+  background: #F7F8F9; /* Default app background */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Hide scrollbar for cleaner UI */
+.mobile-frame::-webkit-scrollbar {
+  display: none;
+}
