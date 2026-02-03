@@ -6,10 +6,10 @@ It is built using React.js and focuses on clean UI, proper routing, and responsi
 ---
 
 ## 🔗 Live Demo
-👉 https://your-vercel-or-netlify-link-here
+👉 https://dev-task-zeta-five.vercel.app/
 
 ## 📦 GitHub Repository
-👉 https://github.com/your-username/devtask
+👉 https://github.com/yugalhemane/DevTask.git
 
 ---
 
@@ -47,7 +47,7 @@ All screens are designed to closely match the provided UI designs and are center
 ## 🚀 Getting Started (Run Locally)
 
 ```bash
-git clone https://github.com/your-username/devtask.git
+git clone https://github.com/yugalhemane/DevTask.git
 cd devtask
 npm install
 npm run dev
@@ -78,10 +78,10 @@ The implementation strictly follows the provided design reference.
 
 ## 👤 Author
 
-Your Name
-Email: your.email@example.com
+Your Name: Yugal Hemane
+Email: yugalhemane@gmail.com
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/yugalhemane/DevTask.git
 
 
 ---
