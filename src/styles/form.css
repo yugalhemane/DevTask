@@ -1,0 +1,211 @@
+/* LANDING SCREEN */
+
+.landing {
+  height: 100%;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.landing-content h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.landing-content p {
+  font-size: 16px;
+  color: #6b6b6b;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  max-width: 260px;
+}
+
+/* BUTTONS */
+
+.landing-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  height: 48px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #6c25ff;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #d9c8ff;
+  color: #000000;
+}
+
+/* FORM PAGES (Login / Signup) */
+
+.form-page {
+  padding: 40px 24px;
+}
+
+.form-page h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 1.25;
+}
+
+.form-subtext {
+  font-size: 16px;
+  color: #6b6b6b;
+  line-height: 1.4;
+  margin-bottom: 32px;
+}
+
+/* INPUTS */
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  color: #6c25ff;
+  margin-bottom: 6px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group input::placeholder {
+  color: #9e9e9e;
+}
+
+.form-group input:focus {
+  border-color: #6c25ff;
+}
+
+/* DISABLED LOGIN BUTTON */
+
+.btn-disabled {
+  margin-top: 16px;
+  background-color: #cbcbcb;
+  color: #ffffff;
+  opacity: 0.9;
+  cursor: not-allowed;
+}
+
+/* REQUIRED ASTERISK */
+label span,
+.radio-group span {
+  color: #dd4a3a;
+  margin-left: 2px;
+}
+
+/* RADIO BUTTON SECTION */
+
+.radio-group {
+  margin: 24px 0 32px;
+}
+
+.radio-group p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.radio-options {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #000;
+}
+
+.radio-options input {
+  accent-color: #6c25ff;
+}
+
+/* PROFILE PAGE */
+
+.profile-page {
+  padding: 24px;
+}
+
+.profile-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+/* Avatar */
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #d9c8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #6c25ff;
+  font-size: 20px;
+}
+
+/* User Info */
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.profile-info p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+/* Description */
+
+.profile-desc {
+  font-size: 14px;
+  color: #3f3f3f;
+  line-height: 1.5;
+}
